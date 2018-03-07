@@ -1,0 +1,571 @@
+{
+  "talks": [
+    {
+      "Id": 1,
+      "Track Number": "8604 Part 1",
+      "Title": "New life",
+      "Length": "1:04:51",
+      "File_Name": "8604 (1) New life"
+    },
+    {
+      "Id": 2,
+      "Track Number": "8604 Part 2",
+      "Title": "The things called Elements",
+      "Length": "0:55:24",
+      "File_Name": "8604 (2) The things called Elements"
+    },
+    {
+      "Id": 3,
+      "Track Number": "8604 Part 3",
+      "Title": "The noble eightfold path",
+      "Length": "1:11:49",
+      "File_Name": "8604 (3) The noble eightfold path"
+    },
+    {
+      "Id": 4,
+      "Track Number": "8605 Part 1",
+      "Title": "The Instinct",
+      "Length": "1:05:14",
+      "File_Name": "8605 (1) The Instinct"
+    },
+    {
+      "Id": 5,
+      "Track Number": "8605 Part 2",
+      "Title": "Happiness",
+      "Length": "1:03:46",
+      "File_Name": "8605 (2) Happiness"
+    },
+    {
+      "Id": 6,
+      "Track Number": "8605 Part 3",
+      "Title": "The basic foundation of knowledge for practice Anapanasati",
+      "Length": "0:53:19",
+      "File_Name": "8605 (3) The basic foundation of knowledge for practice Anapanasati"
+    },
+    {
+      "Id": 7,
+      "Track Number": "8606 Part 1",
+      "Title": "Defilement and dukkha",
+      "Length": "1:22:16",
+      "File_Name": "8606 (1) Defilement and dukkha"
+    },
+    {
+      "Id": 8,
+      "Track Number": "8606 Part 2",
+      "Title": "The defilement and the end defilement",
+      "Length": "1:00:02",
+      "File_Name": "8606 (2) The defilement and the end defilement"
+    },
+    {
+      "Id": 9,
+      "Track Number": "8606 Part 3",
+      "Title": "Defilement and enlightenment",
+      "Length": "0:53:15",
+      "File_Name": "8606 (3) Defilement and enlightenment"
+    },
+    {
+      "Id": 10,
+      "Track Number": "8610 Part 1",
+      "Title": "Why Dhamma",
+      "Length": "0:59:41",
+      "File_Name": "8610 (1) Why Dhamma"
+    },
+    {
+      "Id": 11,
+      "Track Number": "8610 Part 2",
+      "Title": "Anapanasati tetrad I step 1 & 2",
+      "Length": "0:51:44",
+      "File_Name": "8610 (2) Anapanasati tetrad I step 1 & 2"
+    },
+    {
+      "Id": 12,
+      "Track Number": "8610 Part 3",
+      "Title": "Anapanasati tetrad I step 3 & 4",
+      "Length": "1:01:12",
+      "File_Name": "8610 (3) Anapanasati tetrad I step 3 & 4"
+    },
+    {
+      "Id": 13,
+      "Track Number": "8610 Part 4",
+      "Title": "Anapanasati tetrad II",
+      "Length": "1:01:34",
+      "File_Name": "8610 (4) Anapanasati tetrad II"
+    },
+    {
+      "Id": 14,
+      "Track Number": "8610 Part 5",
+      "Title": "Anapanasati tetrad III",
+      "Length": "0:55:53",
+      "File_Name": "8610 (5) Anapanasati tetrad III"
+    },
+    {
+      "Id": 15,
+      "Track Number": "8610 Part 6",
+      "Title": "Anapanasati tetrad IV",
+      "Length": "0:51:49",
+      "File_Name": "8610 (6) Anapanasati tetrad IV"
+    },
+    {
+      "Id": 16,
+      "Track Number": "8610 Part 7",
+      "Title": "Summary of the whole Anapanasati",
+      "Length": "0:55:49",
+      "File_Name": "8610 (7) Summary of the whole Anapanasati"
+    },
+    {
+      "Id": 17,
+      "Track Number": "8610 Part 8",
+      "Title": "Translator's comments",
+      "Length": "1:17:50",
+      "File_Name": "8610 (8) Translator's comments"
+    },
+    {
+      "Id": 18,
+      "Track Number": "8612 Part 1",
+      "Title": "The burden of life",
+      "Length": "1:13:59",
+      "File_Name": "8612 (1) The burden of life"
+    },
+    {
+      "Id": 19,
+      "Track Number": "8612 Part 2",
+      "Title": "The problem of everyone of us",
+      "Length": "1:26:37",
+      "File_Name": "8612 (2) The problem of everyone of us"
+    },
+    {
+      "Id": 20,
+      "Track Number": "8612 Part 3",
+      "Title": "The thing called 'The five khandha'",
+      "Length": "0:25:22",
+      "File_Name": "8612 (3) The thing called 'The five khandha'"
+    },
+    {
+      "Id": 21,
+      "Track Number": "8612 Part 4",
+      "Title": "The thing called 'The five khandha' continued",
+      "Length": "1:27:45",
+      "File_Name": "8612 (4) The thing called 'The five khandha' continued"
+    },
+    {
+      "Id": 22,
+      "Track Number": "8612 Part 5",
+      "Title": "Origination cause for life becoming a having burden on dukkha",
+      "Length": "1:21:45",
+      "File_Name": "8612 (5) Origination cause for life becoming a having burden on dukkha"
+    },
+    {
+      "Id": 23,
+      "Track Number": "8612 Part 6",
+      "Title": "The result of removing self from the five Khandha",
+      "Length": "1:40:36",
+      "File_Name": "8612 (6) The result of removing self from the five Khandha"
+    },
+    {
+      "Id": 24,
+      "Track Number": "8702 Part 1",
+      "Title": "As what should Buddhism be studied",
+      "Length": "0:54:49",
+      "File_Name": "8702 (1) As what should Buddhism be studied"
+    },
+    {
+      "Id": 25,
+      "Track Number": "8702 Part 2",
+      "Title": "The essence of Buddhism",
+      "Length": "0:49:41",
+      "File_Name": "8702 (2) The essence of Buddhism"
+    },
+    {
+      "Id": 26,
+      "Track Number": "8702 Part 3",
+      "Title": "Studying life",
+      "Length": "0:56:06",
+      "File_Name": "8702 (3) Studying life"
+    },
+    {
+      "Id": 27,
+      "Track Number": "8704 Part 2",
+      "Title": "Why Vipassana",
+      "Length": "0:49:42",
+      "File_Name": "8704 (2) Why Vipassana"
+    },
+    {
+      "Id": 28,
+      "Track Number": "8704 Part 3",
+      "Title": "What Anapanasati is",
+      "Length": "0:54:29",
+      "File_Name": "8704 (3) What Anapanasati is"
+    },
+    {
+      "Id": 29,
+      "Track Number": "8705 Part 1",
+      "Title": "Dukkha and It's cause",
+      "Length": "0:51:37",
+      "File_Name": "8705 (1) Dukkha and It's cause"
+    },
+    {
+      "Id": 30,
+      "Track Number": "8705 Part 2",
+      "Title": "Quenching Dukkha",
+      "Length": "1:04:18",
+      "File_Name": "8705 (2) Quenching Dukkha"
+    },
+    {
+      "Id": 31,
+      "Track Number": "8705 Part 3",
+      "Title": "Mental development in Buddhism",
+      "Length": "1:22:31",
+      "File_Name": "8705 (3) Mental development in Buddhism"
+    },
+    {
+      "Id": 32,
+      "Track Number": "8709 Part 1",
+      "Title": "The danger of selfishness",
+      "Length": "0:55:50",
+      "File_Name": "8709 (1) The danger of selfishness"
+    },
+    {
+      "Id": 33,
+      "Track Number": "8709 Part 2",
+      "Title": "The cause of selfishness",
+      "Length": "0:54:09",
+      "File_Name": "8709 (2) The cause of selfishness"
+    },
+    {
+      "Id": 34,
+      "Track Number": "8709 Part 3",
+      "Title": "The extinguish selfishness",
+      "Length": "0:48:01",
+      "File_Name": "8709 (3) The extinguish selfishness"
+    },
+    {
+      "Id": 35,
+      "Track Number": "8709 Part 4",
+      "Title": "The benefits of destory selfishness",
+      "Length": "0:53:07",
+      "File_Name": "8709 (4) The benefits of destory selfishness"
+    },
+    {
+      "Id": 36,
+      "Track Number": "8709 Part 5",
+      "Title": "The method of practices that extinguish selfishness",
+      "Length": "0:58:56",
+      "File_Name": "8709 (5) The method of practices that extinguish selfishness"
+    },
+    {
+      "Id": 37,
+      "Track Number": "8710 Part 1",
+      "Title": "New life is most certainly possible",
+      "Length": "0:36:24",
+      "File_Name": "8710 (1) New life is most certainly possible"
+    },
+    {
+      "Id": 38,
+      "Track Number": "8710 Part 2",
+      "Title": "Benefits of having new life",
+      "Length": "0:55:58",
+      "File_Name": "8710 (2) Benefits of having new life"
+    },
+    {
+      "Id": 39,
+      "Track Number": "8710 Part 3",
+      "Title": "Way of obtaining new life",
+      "Length": "0:38:49",
+      "File_Name": "8710 (3) Way of obtaining new life"
+    },
+    {
+      "Id": 40,
+      "Track Number": "8710 Part 4",
+      "Title": "Using Anapanasati-Bhavana for daily life",
+      "Length": "1:09:34",
+      "File_Name": "8710 (4) Using Anapanasati-Bhavana for daily life"
+    },
+    {
+      "Id": 41,
+      "Track Number": "8801 Part 1",
+      "Title": "Genuine fruits of studying Buddhism",
+      "Length": "1:02:45",
+      "File_Name": "8801 (1) Genuine fruits of studying Buddhism"
+    },
+    {
+      "Id": 42,
+      "Track Number": "8801 Part 2",
+      "Title": "Benefits of new life",
+      "Length": "1:28:04",
+      "File_Name": "8801 (2) Benefits of new life"
+    },
+    {
+      "Id": 43,
+      "Track Number": "8801 Part 3",
+      "Title": "Nibbana in Buddhism",
+      "Length": "1:08:00",
+      "File_Name": "8801 (3) Nibbana in Buddhism"
+    },
+    {
+      "Id": 44,
+      "Track Number": "8801 Part 4",
+      "Title": "Anatta and rebirth",
+      "Length": "1:01:02",
+      "File_Name": "8801 (4) Anatta and rebirth"
+    },
+    {
+      "Id": 45,
+      "Track Number": "8802 Part 1",
+      "Title": "The prison of life",
+      "Length": "1:06:31",
+      "File_Name": "8802 (1) The prison of life"
+    },
+    {
+      "Id": 46,
+      "Track Number": "8805 Part 1",
+      "Title": "The way of reaching Buddhism",
+      "Length": "0:47:38",
+      "File_Name": "8805 (1) The way of reaching Buddhism"
+    },
+    {
+      "Id": 47,
+      "Track Number": "8805 Part 2",
+      "Title": "The new life and Anapanasati how are they in related",
+      "Length": "0:46:02",
+      "File_Name": "8805 (2) The new life and Anapanasati how are they in related"
+    },
+    {
+      "Id": 48,
+      "Track Number": "8806 Part 1",
+      "Title": "The method is self reliance",
+      "Length": "0:46:56",
+      "File_Name": "8806 (1) The method is self reliance"
+    },
+    {
+      "Id": 49,
+      "Track Number": "8807 Part 1",
+      "Title": "The relationship between Dhamma and life",
+      "Length": "0:40:05",
+      "File_Name": "8807 (1) The relationship between Dhamma and life"
+    },
+    {
+      "Id": 50,
+      "Track Number": "8807 Part 2",
+      "Title": "Self which is not self",
+      "Length": "0:44:03",
+      "File_Name": "8807 (2) Self which is not self"
+    },
+    {
+      "Id": 51,
+      "Track Number": "8807 Part 3",
+      "Title": "Religion which is a way of life",
+      "Length": "0:42:57",
+      "File_Name": "8807 (3) Religion which is a way of life"
+    },
+    {
+      "Id": 52,
+      "Track Number": "8808 Part 1",
+      "Title": "Life is something which can and must be developed",
+      "Length": "0:47:53",
+      "File_Name": "8808 (1) Life is something which can and must be developed"
+    },
+    {
+      "Id": 53,
+      "Track Number": "8808 Part 2",
+      "Title": "Developing life through duty",
+      "Length": "0:39:50",
+      "File_Name": "8808 (2) Developing life through duty"
+    },
+    {
+      "Id": 54,
+      "Track Number": "8810 Part 1",
+      "Title": "How to be free of Dukkha",
+      "Length": "0:45:42",
+      "File_Name": "8810 (1) How to be free of Dukkha"
+    },
+    {
+      "Id": 55,
+      "Track Number": "8810 Part 2",
+      "Title": "Using Anapanasati in the household life",
+      "Length": "0:32:35",
+      "File_Name": "8810 (2) Using Anapanasati in the household life"
+    },
+    {
+      "Id": 56,
+      "Track Number": "8812 Part 3",
+      "Title": "Arising of Paticca Samuppada",
+      "Length": "0:58:13",
+      "File_Name": "8812 (3) Arising of Paticca Samuppada"
+    },
+    {
+      "Id": 57,
+      "Track Number": "8812 Part 4",
+      "Title": "Controlling of Paticca Samuppada",
+      "Length": "0:47:28",
+      "File_Name": "8812 (4) Controlling of Paticca Samuppada"
+    },
+    {
+      "Id": 58,
+      "Track Number": "8812 Part 5",
+      "Title": "Ceasing of Paticca Samuppada",
+      "Length": "1:17:09",
+      "File_Name": "8812 (5) Ceasing of Paticca Samuppada"
+    },
+    {
+      "Id": 59,
+      "Track Number": "8812 Part 6",
+      "Title": "Summary of Paticca Samuppada",
+      "Length": "0:54:07",
+      "File_Name": "8812 (6) Summary of Paticca Samuppada"
+    },
+    {
+      "Id": 60,
+      "Track Number": "8812 Part 7",
+      "Title": "Four noble truths",
+      "Length": "1:15:50",
+      "File_Name": "8812 (7) Four noble truths"
+    },
+    {
+      "Id": 61,
+      "Track Number": "8901 Part 1",
+      "Title": "Introduction to understanding the Ariya-Sacca",
+      "Length": "1:00:52",
+      "File_Name": "8901 (1) Introduction to understanding the Ariya-Sacca"
+    },
+    {
+      "Id": 62,
+      "Track Number": "8901 Part 2",
+      "Title": "Meaning of Ariya-Sacca",
+      "Length": "1:17:52",
+      "File_Name": "8901 (2) Meaning of Ariya-Sacca"
+    },
+    {
+      "Id": 63,
+      "Track Number": "8901 Part 3",
+      "Title": "Noble truth of Dukkha",
+      "Length": "1:12:10",
+      "File_Name": "8901 (3) Noble truth of Dukkha"
+    },
+    {
+      "Id": 64,
+      "Track Number": "8901 Part 4",
+      "Title": "Noble truth of Dukkha's origin",
+      "Length": "1:13:03",
+      "File_Name": "8901 (4) Noble truth of Dukkha's origin"
+    },
+    {
+      "Id": 65,
+      "Track Number": "8901 Part 5",
+      "Title": "Noble truth of Dukkha's Quenching",
+      "Length": "1:05:17",
+      "File_Name": "8901 (5) Noble truth of Dukkha's Quenching"
+    },
+    {
+      "Id": 66,
+      "Track Number": "8901 Part 6",
+      "Title": "The Path Leading to Dukkha's Quenching",
+      "Length": "1:19:17",
+      "File_Name": "8901 (6) The Path Leading to Dukkha's Quenching"
+    },
+    {
+      "Id": 67,
+      "Track Number": "8901 Part 7",
+      "Title": "Concluding facts about the four Ariya-Sacca",
+      "Length": "1:00:21",
+      "File_Name": "8901 (7) Concluding facts about the four Ariya-Sacca"
+    },
+    {
+      "Id": 68,
+      "Track Number": "8903 Part 1",
+      "Title": "Life that bites its owner",
+      "Length": "1:08:29",
+      "File_Name": "8903 (1) Life that bites its owner"
+    },
+    {
+      "Id": 69,
+      "Track Number": "8912 Part 1",
+      "Title": "The meaning of retreat",
+      "Length": "0:51:32",
+      "File_Name": "8912 (1) The meaning of retreat"
+    },
+    {
+      "Id": 70,
+      "Track Number": "8912 Part 4",
+      "Title": "Benefit of retreating",
+      "Length": "0:51:11",
+      "File_Name": "8912 (4) Benefit of retreating"
+    },
+    {
+      "Id": 71,
+      "Track Number": "9002 Part 1",
+      "Title": "Solitude",
+      "Length": "0:56:56",
+      "File_Name": "9002 (1) Solitude"
+    },
+    {
+      "Id": 72,
+      "Track Number": "9002 Part 3",
+      "Title": "Creating the solitude we require",
+      "Length": "1:01:38",
+      "File_Name": "9002 (3) Creating the solitude we require"
+    },
+    {
+      "Id": 73,
+      "Track Number": "9004B Part 1",
+      "Title": "Understanding each other will save the world",
+      "Length": "0:47:25",
+      "File_Name": "9004B (1) Understanding each other will save the world"
+    },
+    {
+      "Id": 74,
+      "Track Number": "9005 Part 2",
+      "Title": "The religious level of love",
+      "Length": "1:07:49",
+      "File_Name": "9005 (2) The religious level of love"
+    },
+    {
+      "Id": 75,
+      "Track Number": "9010 Part 1",
+      "Title": "Finding the coolest point in the blast furnace",
+      "Length": "1:05:28",
+      "File_Name": "9010 (1) Finding the coolest point in the blast furnace"
+    },
+    {
+      "Id": 76,
+      "Track Number": "9010 Part 2",
+      "Title": "The blazing and quenching of the flames",
+      "Length": "1:11:51",
+      "File_Name": "9010 (2) The blazing and quenching of the flames"
+    },
+    {
+      "Id": 77,
+      "Track Number": "9010 Part 3",
+      "Title": "Vipassana nine state of being",
+      "Length": "1:11:48",
+      "File_Name": "9010 (3) Vipassana nine state of being"
+    },
+    {
+      "Id": 78,
+      "Track Number": "9010 Part 4",
+      "Title": "Dhamma Questions and Responses",
+      "Length": "1:09:11",
+      "File_Name": "9010 (4) Dhamma Questions and Responses"
+    },
+    {
+      "Id": 79,
+      "Track Number": "9109 Part 3",
+      "Title": "Dhamma Questions and Responses",
+      "Length": "1:02:26",
+      "File_Name": "9109 (3) Dhamma Questions and Responses"
+    },
+    {
+      "Id": 80,
+      "Track Number": "9109 Part 4",
+      "Title": "Dhamma Questions and Responses 2",
+      "Length": "1:07:57",
+      "File_Name": "9109 (4) Dhamma Questions and Responses 2"
+    },
+    {
+      "Id": 81,
+      "Track Number": "9110 Part 4",
+      "Title": "Dhamma Questions and Responses",
+      "Length": "1:04:42",
+      "File_Name": "9110 (4) Dhamma Questions and Responses"
+    }
+  ]
+}

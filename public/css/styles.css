@@ -1,0 +1,184 @@
+/* ==========================================================================
+                                     GLOBAL
+============================================================================= */
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  background: #2BC0E4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* ==========================================================================
+                                    BANNER
+============================================================================= */
+.navbar {
+  border-bottom: 1px solid rgba(227, 252, 252, 0.43);
+}
+
+.navbar .navbar-brand {
+  text-align: center;
+}
+
+.navbar .navbar-brand .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #E3FCFC;
+  float: left;
+  margin-top: 15px;
+}
+
+.navbar .navbar-brand .icon .triangle {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 27px solid #65CADF;
+  margin-top: 10px;
+  margin-left: 15px;
+  box-sizing: border-box;
+}
+
+.navbar .navbar-brand .title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  color: #E3FCFC;
+}
+
+
+
+
+
+
+
+
+
+
+.banner .logo .title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  text-align: right;
+  line-height: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.banner {
+  height: 80px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.banner div {
+    float: left;
+    display: block;
+    color: #E3FCFC;
+    text-decoration: none;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.banner .logo {
+  width: 30%;
+}
+
+.banner .logo div {
+  float: right;
+}
+
+
+
+
+.banner .filters {
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 40%;
+  margin: auto;
+  display: block;
+}
+
+.banner .filters .filter {
+  float: left;
+  width: 140px;
+  display: block;
+  vertical-align: text-bottom;
+  font-size: 20px;
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
+.banner .filters .filter:last-child {
+  margin-left: 0px;
+}
+
+.banner .filters .filter:first-child {
+  margin-right: 0px;
+}
+
+.banner .filters .filter:hover {
+  border-bottom: 2px solid #E3FCFC;
+}
+
+.banner .search {
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 30%;
+  text-align: left;
+}
+
+.banner .search input {
+  border: 1px solid #E3FCFC;
+  border-radius: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  background: #E3FCFC;
+  color: #2BC0E4;
+  text-align: center;
+  height: 25px;
+}
+
+
+/* ==========================================================================
+                                    TALK LIST
+============================================================================= */
+.Dhamma_Talks {
+  width: 100%;
+}
+
+.Dhamma_Talks h1 {
+  color: #E3FCFC;
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.Dhamma_Talks .list_container {
+  width: 80%;
+  height: 2500px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.Dhamma_Talks .list_container .talk_item {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin: 17px;
+  font-size: 13px;
+  border-radius: 10px;
+  background-size: cover !important;
+  opacity: 0.90;
+}
+
+.Dhamma_Talks .list_container .talk_item .talk_title {
+  text-align: center;
+  vertical-align: text-bottom !important;
+}

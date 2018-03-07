@@ -11,6 +11,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+import { InputGroup, InputGroupAddon, InputGroupText, Input } from 'reactstrap';
 
 class Banner extends Component {
   constructor(props) {
@@ -44,35 +45,30 @@ class Banner extends Component {
 
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>TOPICS</DropdownToggle>
-
                 <DropdownMenu>
                   <DropdownItem> Option 1 </DropdownItem>
                   <DropdownItem> Option 1 </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem> Reset </DropdownItem>
                 </DropdownMenu>
-                
               </UncontrolledDropdown>
 
               <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  TRACK LENGTH
-                </DropdownToggle>
-                <DropdownMenu >
-                  <DropdownItem>
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem>
-                    Option 2
-                  </DropdownItem>
+                <DropdownToggle nav caret>TRACK LENGTH</DropdownToggle>
+                <DropdownMenu>
+                  <DropdownItem> Option 1 </DropdownItem>
+                  <DropdownItem> Option 1 </DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem>
+                  <DropdownItem> Reset </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
 
             </Nav>
+
+            <InputGroup>
+              <Input placeholder="search by title..." />
+            </InputGroup>
+
           </Collapse>
 
         </Navbar>

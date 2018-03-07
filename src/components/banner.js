@@ -1,31 +1,84 @@
-import React from 'react';
+import React, { Component } from 'react';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem } from 'reactstrap';
 
-const Banner = () => {
+class Banner extends Component {
+  constructor(props) {
+    super(props);
 
-  return (
-    <nav className="navbar" role="navigation">
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
 
-      <div className="navbar-brand">
-        <div className="icon">
-          <div className="triangle"/>
-        </div>
-        <div className="title">Suan Mokkh</div>
+  render() {
+    return (
+      <div>
+        <Navbar light expand="md">
+
+          <NavbarBrand href="/">
+            <div className="icon"><div className="triangle"></div></div>
+            Suan Mokkh
+          </NavbarBrand>
+
+          <NavbarToggler onClick={this.toggle} />
+
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>TOPICS</DropdownToggle>
+
+                <DropdownMenu>
+                  <DropdownItem> Option 1 </DropdownItem>
+                  <DropdownItem> Option 1 </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem> Reset </DropdownItem>
+                </DropdownMenu>
+                
+              </UncontrolledDropdown>
+
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  TRACK LENGTH
+                </DropdownToggle>
+                <DropdownMenu >
+                  <DropdownItem>
+                    Option 1
+                  </DropdownItem>
+                  <DropdownItem>
+                    Option 2
+                  </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem>
+                    Reset
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+
+            </Nav>
+          </Collapse>
+
+        </Navbar>
       </div>
-
-      <div className="navbar-nav">
-        <ul className="navbar-nav mr-auto">
-          <li className="nav-item">TOPIC</li>
-          <li className="nav-item">TRACK LENGTH</li>
-        </ul>
-      </div>
-
-      <form className="form-inline my-2 my-lg-0">
-        <input className="form-control mr-sm-2" type="text" placeholder="search keyword..."/>
-      </form>
-
-    </nav>
-  )
-
+    );
+  }
 }
 
 export default Banner;

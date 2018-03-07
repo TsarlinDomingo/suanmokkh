@@ -25,8 +25,8 @@ const TalkList = (props) => {
 
     <h1>Browse Dhamma Talks</h1>
 
-    <div className="row justify-content-sm-center">
-      <div className="list_container">
+    <div className="row justify-content-md-center">
+      <div className="col-sm-12 list_container">
         {list(props)}
       </div>
     </div>

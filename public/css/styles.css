@@ -23,8 +23,11 @@ a {
   border-bottom: 1px solid rgba(227, 252, 252, 0.43);
 }
 
-.navbar .navbar-brand {
-  text-align: center;
+.navbar-brand {
+  text-align: center !important;
+  font-family: 'Amatic SC', cursive !important;
+  font-size: 50px !important;
+  color: #E3FCFC !important;
 }
 
 .navbar .navbar-brand .icon {
@@ -34,6 +37,7 @@ a {
   background: #E3FCFC;
   float: left;
   margin-top: 15px;
+  margin-right: 10px;
 }
 
 .navbar .navbar-brand .icon .triangle {
@@ -47,16 +51,10 @@ a {
   box-sizing: border-box;
 }
 
-.navbar .navbar-brand .title {
-  font-family: 'Amatic SC', cursive;
-  font-size: 50px;
+.navbar .navbar-collapse ul li .nav-link {
   color: #E3FCFC;
-  text-align: right;
-}
-
-.navbar .navbar-nav ul li {
-  display: inline inline-flex !important;
-  color: #E3FCFC;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .navbar .form-inline {
@@ -89,7 +87,7 @@ a {
   margin-top: 20px;
   background-color: rgba(227, 252, 252, 0.15);
   justify-content: space-around !important;
-  display: flow-root;
+
 }
 
 .Dhamma_Talks .list_container .talk_item {

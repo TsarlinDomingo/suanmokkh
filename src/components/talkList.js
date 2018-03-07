@@ -13,7 +13,7 @@ const TalkList = (props) => {
 
         return (
           <Link key={item.Id} to={`/talks/${item.Id}`} className="talk_item" style={style}>
-            <span className="talk_title">{item.Title}</span>
+            <div className="talk_title">{item.Title}</div>
           </Link>
         )
       })
@@ -25,8 +25,8 @@ const TalkList = (props) => {
 
     <h1>Browse Dhamma Talks</h1>
 
-    <div className="row justify-content-md-center">
-      <div className="col-sm-12 list_container">
+    <div className="row justify-content-sm-center">
+      <div className="list_container">
         {list(props)}
       </div>
     </div>

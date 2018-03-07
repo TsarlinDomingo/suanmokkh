@@ -96,22 +96,43 @@ nav .collapse .input-group input {
   margin-top: 20px;
   background-color: rgba(227, 252, 252, 0.15);
   justify-content: space-around !important;
-
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
 }
 
 .Dhamma_Talks .list_container .talk_item {
   width: 150px;
   height: 150px;
-  float: left;
   justify-content: center;
   margin: 15px;
   font-size: 13px;
   border-radius: 10px;
   background-size: cover !important;
   opacity: 0.90;
+  position: relative;
 }
 
 .Dhamma_Talks .list_container .talk_item .talk_title {
+  display: none;
   text-align: center;
-  vertical-align: text-bottom !important;
+  position: absolute;
+  bottom: 0;
+  background: #2196f3;
+  color: #fff;
+  width: 150px;
+  border-radius: 0 0 10px 10px;
+  padding: 5px;
+}
+
+.Dhamma_Talks .list_container .talk_item:hover .talk_title {
+  display: block;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background: #2196f3;
+  color: #fff;
+  width: 150px;
+  border-radius: 0 0 10px 10px;
+  padding: 5px;
 }

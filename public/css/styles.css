@@ -77,10 +77,6 @@ a {
 /* ==========================================================================
                                     TALK LIST
 ============================================================================= */
-.Dhamma_Talks {
-  width: 100%;
-}
-
 .Dhamma_Talks h1 {
   color: #E3FCFC;
   text-align: center;
@@ -89,18 +85,19 @@ a {
 }
 
 .Dhamma_Talks .list_container {
-  width: 80%;
-  height: 2500px;
   border-radius: 10px;
-  margin: auto;
   margin-top: 20px;
+  background-color: rgba(227, 252, 252, 0.15);
+  justify-content: space-around !important;
+  display: flow-root;
 }
 
 .Dhamma_Talks .list_container .talk_item {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   float: left;
-  margin: 17px;
+  justify-content: center;
+  margin: 15px;
   font-size: 13px;
   border-radius: 10px;
   background-size: cover !important;

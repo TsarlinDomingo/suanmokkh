@@ -21,10 +21,14 @@ const TalkList = (props) => {
   }
 
   return (
-  <div className="Dhamma_Talks">
+  <div className="container Dhamma_Talks">
+
     <h1>Browse Dhamma Talks</h1>
-    <div className="list_container">
-      {list(props)}
+
+    <div className="row justify-content-sm-center">
+      <div className="list_container">
+        {list(props)}
+      </div>
     </div>
 
   </div>

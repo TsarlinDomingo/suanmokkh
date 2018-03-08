@@ -30,7 +30,7 @@ class Banner extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container-fluid">
         <Navbar light expand="md">
 
           <NavbarBrand href="/">

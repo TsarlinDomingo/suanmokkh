@@ -87,18 +87,22 @@ nav .collapse .input-group input {
 .Dhamma_Talks h1 {
   color: #E3FCFC;
   text-align: center;
-  margin: 0;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .Dhamma_Talks .list_container {
   border-radius: 10px;
   margin-top: 20px;
+  margin-bottom: 50px;
+  padding-bottom: 15px;
   background-color: rgba(227, 252, 252, 0.15);
   justify-content: space-around !important;
   display: flex;
   flex-wrap: wrap;
   padding-top: 20px;
+  width: 80%;
+  margin: auto;
 }
 
 .Dhamma_Talks .list_container .talk_item {

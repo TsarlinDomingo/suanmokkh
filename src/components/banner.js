@@ -22,6 +22,7 @@ class Banner extends Component {
       isOpen: false
     };
   }
+  
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen

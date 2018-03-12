@@ -9,7 +9,7 @@ import Home from './components/home';
 const App = () => {
   return (
     <BrowserRouter>
-        <Home/>
+        <Route exact path="/" component={Home}/>
     </BrowserRouter>
   )
 }

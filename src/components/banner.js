@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
+import { InputGroup, Input } from 'reactstrap';
 import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
+  Collapse, Nav, Navbar,
+  NavbarToggler, NavbarBrand,
   UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
+  DropdownToggle, DropdownMenu,
   DropdownItem } from 'reactstrap';
-import { InputGroup, InputGroupAddon, InputGroupText, Input } from 'reactstrap';
 
 class Banner extends Component {
   constructor(props) {
@@ -22,7 +16,7 @@ class Banner extends Component {
       isOpen: false
     };
   }
-  
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen

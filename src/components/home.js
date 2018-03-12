@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Banner from './banner';
 import TalkList from './talkList';
 
-const URL_TALKS = 'http://localhost:3004/talks';
+const URL_TALKS = 'http://localhost:3005/talks';
 
 class Home extends Component {
   constructor(props) {
@@ -30,7 +30,7 @@ class Home extends Component {
     return (
       <div>
         <Banner/>
-        <TalkList allTalks={this.state.talks}/>
+        <TalkList allTalks={this.state.talks} />
       </div>
     )
   }

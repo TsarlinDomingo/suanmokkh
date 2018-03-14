@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Banner from './banner';
 import TalkList from './talkList';
+import Player from './player';
 
 const URL_TALKS = 'http://localhost:3005/talks';
 
@@ -31,6 +32,7 @@ class Home extends Component {
       <div>
         <Banner/>
         <TalkList allTalks={this.state.talks} />
+        <Player/>
       </div>
     )
   }

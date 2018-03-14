@@ -50,7 +50,6 @@ const TalkList = (props) => {
       <div className="list_container">
         {generateSlides(props)}
       </div>
-      <div className="player"/>
     </div>
   )
 }

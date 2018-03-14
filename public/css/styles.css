@@ -76,7 +76,6 @@ nav .collapse button {
   height: 25px;
   width: 75px;
   font-size: 14px;
-  bottom: 0;
   border: 1px solid #2196f3;
   border-radius: 30px;
   background: #2196f3;
@@ -102,6 +101,9 @@ nav .collapse .input-group input::placeholder {
     color: #2196f3;
 }
 
+nav .show .input-group input {
+  padding-top: 10px;
+}
 
 /* ==========================================================================
                                     TALK LIST
@@ -159,6 +161,7 @@ nav .collapse .input-group input::placeholder {
   background-size: cover !important;
   opacity: 0.90;
   position: relative;
+  float: left;
 }
 
 .Dhamma_Talks .list_container .talk_item .talk_title {
@@ -185,12 +188,47 @@ nav .collapse .input-group input::placeholder {
   padding: 5px;
 }
 
-.Dhamma_Talks .player {
-  height: 83px;
+.player-wrapper {
   width: 100%;
+  height: 83px;
   position: fixed;
   bottom: 0;
   left: 0;
-  background: rgba(94, 94, 94,0.5);
   box-sizing: border-box;
+}
+
+.player-wrapper .track-image {
+  width: 83px;
+  height: 83px;
+  background: -webkit-linear-gradient(to bottom, rgba(213, 235, 210, .8), rgba(47, 193, 227, .8));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, rgba(213, 235, 210, .8), rgba(47, 193, 227, .8)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-image: url("../images/mandala_1.jpg");
+  background-size: cover;
+  position: relative;
+  float: left;
+}
+
+.player-wrapper .contents-player {
+  height: 83px;
+  width: calc(100% - 83px);
+  float: left;
+  background: -webkit-linear-gradient(to bottom, rgba(213, 235, 210, .8), rgba(47, 193, 227, .8));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, rgba(213, 235, 210, .8), rgba(47, 193, 227, .8)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+}
+
+.player-wrapper .contents-player strong,
+.player-wrapper .contents-player span {
+margin-left:10px!important;
+  margin-top: 0;
+  padding: 3px !important;
+  font-size: 14px !important;
+  color: #155969;
+}
+
+.player-wrapper .contents-player .react-player {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 83px) !important;
 }

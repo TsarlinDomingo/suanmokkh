@@ -36,10 +36,12 @@ class Banner extends Component {
           <NavbarToggler onClick={this.toggle} />
 
           <Collapse isOpen={this.state.isOpen} navbar>
+
             <Nav className="ml-auto" navbar>
 
               <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>TOPICS</DropdownToggle>
+
+                <DropdownToggle nav caret>Topics</DropdownToggle>
                 <DropdownMenu>
                   <DropdownItem> Option 1 </DropdownItem>
                   <DropdownItem> Option 1 </DropdownItem>
@@ -49,7 +51,7 @@ class Banner extends Component {
               </UncontrolledDropdown>
 
               <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>TRACK LENGTH</DropdownToggle>
+                <DropdownToggle nav caret>Track length</DropdownToggle>
                 <DropdownMenu>
                   <DropdownItem> Option 1 </DropdownItem>
                   <DropdownItem> Option 1 </DropdownItem>
@@ -60,8 +62,12 @@ class Banner extends Component {
 
             </Nav>
 
+            <button /*onClick={favorites()}*/>
+              <strong>Favorites</strong>
+            </button>
+
             <InputGroup>
-              <Input placeholder="search by title..." />
+              <Input placeholder="search by title" />
             </InputGroup>
 
           </Collapse>

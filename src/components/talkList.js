@@ -7,14 +7,20 @@ const TalkList = (props) => {
   const generateSlides = ({allTalks}) => {
 
     if(allTalks) {
+
       const settings = {
         arrows: false,
-        dots: false,
+        dots: true,
         infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
+        infiniteFlow: true,
+        speed: 2000,
+        slidesToShow: 10,
+        slidesToScroll: 10,
+        variableWidth: true,
+        centerMode: false
       }
+
+      console.log(allTalks);
 
       return (
         <Slider {...settings}>
@@ -40,10 +46,11 @@ const TalkList = (props) => {
 
   return (
     <div className="container-fluid Dhamma_Talks">
-      <h1 className="home_title">Browse Dhamma Talks</h1>
+      <h1 className="home_title">BROWSE DHAMMA TALKS</h1>
       <div className="list_container">
         {generateSlides(props)}
       </div>
+      <div className="player"/>
     </div>
   )
 }

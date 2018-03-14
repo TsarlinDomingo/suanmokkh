@@ -8,6 +8,7 @@ body {
   background: -webkit-linear-gradient(to top, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
+  min-height: 0;
 }
 
 a {
@@ -26,34 +27,38 @@ nav {
 nav .navbar-brand {
   text-align: center;
   font-family: 'Amatic SC', cursive;
-  font-size: 50px;
+  font-size: 35px;
   color: #E3FCFC !important;
   margin-left: 15px;
 }
 
 nav .navbar-brand .icon {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
   background: #E3FCFC;
   float: left;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right: 10px;
 }
 
 nav .navbar-brand .icon .triangle {
   width: 0;
   height: 0;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-left: 27px solid #65CADF;
-  margin-top: 10px;
-  margin-left: 15px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #65CADF;
+  margin-top: 7px;
+  margin-left: 12px;
   box-sizing: border-box;
 }
 
 nav .collapse .ml-auto {
-  margin: auto !important;
+  margin-right: 10px !important;
+}
+
+nav .collapse .ml-auto .nav-item .nav-link {
+  font-size: 16px !important;
 }
 
 nav .navbar-toggler {
@@ -66,33 +71,56 @@ nav .collapse .ml-auto li .nav-link {
   font-size: 20px;
 }
 
+nav .collapse button {
+  margin-right: 50px !important;
+  height: 25px;
+  width: 75px;
+  font-size: 14px;
+  bottom: 0;
+  border: 1px solid #2196f3;
+  border-radius: 30px;
+  background: #2196f3;
+  color: #E3FCFC;
+  box-sizing: border-box;
+}
+
 nav .collapse .input-group {
-  width: 200px;
-  height: 30px;
-  margin-right: auto;
+  width: 125px;
+  height: 25px;
+  margin-right: 0;
 }
 
 nav .collapse .input-group input {
   border: 1px solid #E3FCFC;
   border-radius: 30px;
   background: #E3FCFC;
-  color: #2BC0E4;
   text-align: center;
+  font-size: 14px;
+}
+
+nav .collapse .input-group input::placeholder {
+    color: #2196f3;
 }
 
 
 /* ==========================================================================
                                     TALK LIST
 ============================================================================= */
+.Dhamma_Talks {
+  position: relative;
+  width: 100%;
+}
+
 .Dhamma_Talks h1 {
   color: #E3FCFC;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
 }
 
 .Dhamma_Talks .list_container {
-  border-radius: 10px;
+  border-radius: 20px;
   margin-top: 20px;
   margin-bottom: 50px;
   padding-bottom: 15px;
@@ -100,13 +128,29 @@ nav .collapse .input-group input {
   justify-content: space-around !important;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 20px;
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 
+.Dhamma_Talks .list_container .slick-slider {
+  overflow: hidden;
+  padding: 0 15px 30px 15px;
+}
+
+.Dhamma_Talks .list_container .slick-slider .slick-list {
+  min-width: 0 !important;
+}
+
+.Dhamma_Talks .list_container .slick-slider .slick-dots {
+  bottom: 0 !important;
+}
+
+.Dhamma_Talks .list_container .slick-dots::before {
+  display: none;
+}
+
 .Dhamma_Talks .list_container .talk_item {
-  width: 150px;
+  width: 150px !important;
   height: 150px;
   justify-content: center;
   margin: 15px;
@@ -139,4 +183,14 @@ nav .collapse .input-group input {
   width: 150px;
   border-radius: 0 0 10px 10px;
   padding: 5px;
+}
+
+.Dhamma_Talks .player {
+  height: 83px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: rgba(94, 94, 94,0.5);
+  box-sizing: border-box;
 }
